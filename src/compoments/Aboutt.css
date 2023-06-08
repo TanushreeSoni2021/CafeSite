@@ -1,0 +1,96 @@
+.imgs {
+    background-attachment: fixed;
+    /* height: 50vh; */
+   background-image: url("../assests/images/bg_1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 5rem;
+}
+
+.icons {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 20px;
+    z-index: 0;
+}
+
+.icons:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    bordeR: 1px solid #e5972a;
+    z-index: -1;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.icons span {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color: #c49b63;
+}
+
+.text strong.number {
+    font-weight: 400;
+    font-size: 30px;
+    color: #c49b63;
+}
+
+.icons span {
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.text p {
+    font-weight: 400;
+    font-size: 15px;
+    color: #fff;
+}
+
+span {
+    color: #bfbfbf;
+}
+
+.text:hover .icons span,
+.text:focus .icons span {
+    color: #000;
+}
+
+.text:hover .icons:after,
+.text:focus .icons:after {
+    -webkit-transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    transform: rotate(135deg);
+    background: #c49b63;
+}
+
+@media (max-width: 991.98px) {
+    .counter-wrap {
+        margin-bottom: 40px !important;
+    }
+}
+
+.ftco-number {
+    display: block;
+    color: #fff;
+}
+
+.ftco-label {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}

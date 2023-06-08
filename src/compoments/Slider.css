@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;1,100;1,300;1,500&display=swap');
+
+
+.home-slider {
+    animation: animate 20s ease-in-out infinite;
+}
+
+@keyframes animate {
+
+    0%,
+    100% {
+        background-image: url("../assests/images/bg_1.jpg");
+    }
+
+    50% {
+        background-image: url("../assests/images/bg_2.jpg");
+    }
+
+    75% {
+        background-image: url("../assests/images/bg_3.jpg");
+    }
+}
+
+.slider-item {
+    color: white;
+    /* background: url("../assests//images/bg_1.jpg"); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.owl-carousel.home-slider .slider-item .slider-text {
+    color: #fff;
+    height: 800px;
+    text-align: right;
+}
+
+@media (min-width: 992px) {
+    .owl-carousel.home-slider .slider-item .slider-text .order-md-last {
+        text-align: left !important;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .owl-carousel.home-slider .slider-item .slider-text {
+        text-align: center;
+    }
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .subheading {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    color: #c49b63;
+}
+
+.owl-carousel.home-slider .slider-item .slider-text h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #fff !important;
+    line-height: 1.5;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+.owl-carousel.home-slider .slider-item .slider-text h1 strong {
+    color: #fff;
+    font-family: "Josefin Sans", Arial, sans-serif;
+    font-size: 50px;
+}
+
+@media (max-width: 991.98px) {
+    .owl-carousel.home-slider .slider-item .slider-text h1 {
+        font-size: 30px;
+    }
+}
+
+.owl-carousel.home-slider .slider-item .slider-text p {
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 300;
+    color: white;
+}
+
+.owl-carousel.home-slider .slider-item .slider-text p.sub-p {
+    font-weight: 400;
+}
+
+.owl-carousel.home-slider .slider-item .slider-text p strong {
+    font-weight: 700;
+}
+
+.owl-carousel.home-slider .slider-item .slider-text p strong a {
+    color: #fff;
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .unstyled-list {
+    width: 50%;
+    padding: 0;
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .unstyled-list li {
+    list-style: none;
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .breadcrumbs {
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .breadcrumbs span {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+.owl-carousel.home-slider .slider-item .slider-text .breadcrumbs span a {
+    color: #fff;
+}
+
+/* buttons */
+.btn:hover,
+.btn:active,
+.btn:focus {
+    outline: none;
+}
+
+.btn.btn-primary {
+    background: #c49b63;
+    border: 1px solid #c49b63;
+    color: #000;
+}
+
+.btn.btn-primary:hover {
+    border: 1px solid #c49b63;
+    background: transparent;
+    color: #c49b63;
+}
+
+.btn.btn-primary.btn-outline-primary {
+    border: 1px solid #c49b63;
+    background: transparent;
+    color: #c49b63;
+}
+
+.btn.btn-primary.btn-outline-primary:hover {
+    border: 1px solid transparent;
+    background: #c49b63;
+    color: #fff;
+}
+
+.btn.btn-white {
+    margin-left: 1%;
+    background: #fff;
+    border: 1px solid #fff;
+    color: #000;
+}
+
+.btn.btn-white:hover {
+    border: 1px solid #000;
+    background: #000;
+    color: #fff;
+}
+
+.btn.btn-white.btn-outline-white {
+    border-color: rgba(255, 255, 255, 0.8);
+    background: none;
+    border-width: 1px;
+    color: #fff;
+}
+
+.btn.btn-white.btn-outline-white:hover,
+.btn.btn-white.btn-outline-white:focus,
+.btn.btn-white.btn-outline-white:active {
+    background: #c49b63;
+    border-color: #c49b63;
+    color: #000;
+}

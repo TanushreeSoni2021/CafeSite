@@ -1,0 +1,68 @@
+.ftco-menu {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.heading-pricing {
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #fff;
+    justify-content: start !important;
+}
+
+.pricing-entry {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.pricing-entry img {
+    width: 100px;
+    height: 100px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.pricing-entry .text h3 span {
+    padding: 20px;
+}
+
+.pricing-entry .text h3 {
+    width: calc(100% - 80px);
+    font-size: 18px;
+}
+
+span {
+    color: #bfbfbf;
+}
+
+.add-btn button {
+    background-color: #c49b63;
+    width: 7rem;
+    border: none;
+    border-radius: 8px;
+}
+
+span button:hover {
+    background-color: #f6cb8f;
+}
+@media (max-width:768px) {
+    .add-btn button {
+    width: 5rem;
+    }
+    
+}
+
+.pricing-entry .text .price {
+    width: 80px;
+    color: #c49b63;
+    text-align: right;
+    font-size: 16px;
+}
+
+.pricing-entry .desc p {
+    margin-bottom: 0;
+    padding: 20px;
+    color: grey;
+}

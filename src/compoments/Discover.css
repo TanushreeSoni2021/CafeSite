@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;1,100;1,300;1,500&display=swap');
+
+.ftco-about {
+    background-color: rgb(31, 29, 29);
+}
+
+.imgss {
+    background: url("../assests/images/about.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+
+.ftco-about .row {
+    margin: 0% !important;
+}
+
+.overlap h2 {
+    color: white;
+    font-size: 2.5rem;
+}
+
+.ftco-about .one-half.img {
+    display: block;
+}
+
+.ftco-about .one-half {
+    width: 100%;
+    padding: 100px 15px;
+}
+
+
+@media (min-width: 768px) {
+    .ftco-about .one-half .overlap {
+        margin-left: -150px;
+        padding: 3rem;
+        font-family: "Poppins" Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        background: rgba(0, 0, 0, 0.5);
+    }
+}
+
+@media (max-width: 767.98px) {
+    .ftco-about .one-half.imgss {
+        height: 20rem;
+    }
+
+    .ftco-about .one-half {
+        width: 100%;
+        padding: 20px 15px;
+    }
+
+}
+
+.heading-section .subheading {
+    font-size: 50px;
+    display: block;
+    margin-bottom: 0;
+    font-family: 'Dancing Script', cursive;
+    color: #c49b63;
+    line-height: 1;
+    margin-bottom: -21px;
+    z-index: 1;
+}
+
+.heading-section p {
+    color: grey;
+}

@@ -1,0 +1,131 @@
+* {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.ftco-cart {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  background: #c49b63 center/cover;
+}
+
+.ftco-cart main {
+  padding: 2rem;
+  overflow-y: auto;
+  color: #fff;
+}
+
+.ftco-cart main h1 h3 {
+  font: 100 2rem "Roboto";
+}
+
+.ftco-cart main::-webkit-scrollbar {
+  display: none;
+}
+
+.ftco-cart .cartItem {
+  background-color: #000;
+  width: 100%;
+  border-radius: 10px;
+  margin: 2rem 0;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr 1fr;
+  align-items: center;
+}
+
+.ftco-cart .cartItem img {
+  width: 7rem;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  object-fit: contain;
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.btns button {
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: #c49b63;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btns button:hover {
+  background-color: rgb(18, 18, 18);
+}
+
+.btns p {
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  display: grid;
+  place-items: center;
+}
+
+.del-icon {
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.5rem;
+  display: inline-block;
+  margin: auto;
+}
+
+.del-icon:hover {
+  color: #c49b63;
+}
+
+.ftco-cart aside {
+  background-color: #000;
+  color: #c49b63;
+  height: 100%;
+  width: 100%;
+  box-shadow: -10px 0px 10px rgba(0, 0, 0, 0.182);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.ftco-cart aside h3 {
+  margin: 0.5rem;
+  font: 100 1.8rem "Roboto";
+  letter-spacing: 2px;
+
+}
+
+aside h2:last-of-type {
+  font-weight: 600;
+}
+
+@media screen and (max-width: 820px) {
+  .ftco-cart {
+    grid-template-columns: 1fr;
+  }
+  .ftco-cart aside {
+    padding: 1rem;
+  }
+  aside h2 {
+    font: 100 1.2rem "Roboto";
+  }
+}
+@media screen and (max-width: 470px) {
+  .ftco-cart .cartItem {
+    grid-template-columns: 1fr;
+  }
+  .ftco-cart .cartItem img {
+    width: 20vh;  
+  height: 20vh;
+  }
+  .del-icon{
+    margin-left: 0%;
+  }
+}

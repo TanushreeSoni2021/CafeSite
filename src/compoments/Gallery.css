@@ -1,0 +1,17 @@
+.ftco-gallery{
+    background-color:black;
+    padding: 1rem;
+} 
+.ftco-gallery .gallery img{
+    width: 100%;
+    padding: 00%;
+}
+.ftco-gallery .row{
+    margin-right: 0% !important;
+}
+@media (max-width: 767px) {
+    .ftco-gallery .gallery img{
+    height: 30vh;
+    padding: 0.5rem 0rem 0.2rem 0.7rem;
+}
+}

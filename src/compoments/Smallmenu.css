@@ -1,0 +1,59 @@
+ .ftco-section{
+  padding: 3rem 0 2rem 0;
+  position: relative;
+  text-align: end;
+  background-color: black;
+
+}
+
+.ftco-section body{
+  color: grey;
+  background-color: black;
+}
+.img1{
+  background-image: url("../assests/images/menuu-5.png");
+}
+.img2{
+  background-image: url("../assests/images/menu-6.webp");
+}
+.img3{
+  background-image: url("../assests/images/menu-3.jpg");
+}
+.img4{
+  background-image: url("../assests/images/menu-4.jpg");
+}
+
+.menu-entry {
+  margin-bottom: 2.5rem;
+}
+
+.menu-entry .imgg {
+  display: block;
+  height: 15rem !important;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.heading-section h2{
+  color: #FFFFFF;
+}
+.menu-entry .text h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.menu-entry .text h3 a {
+  color: #fff;
+}
+
+.menu-entry .text .price span {
+  color: #fff;
+  font-size: 18px;
+}
+
+@media (max-width: 767px) {
+ .ftco-section{
+  text-align: start;
+ }
+
+}

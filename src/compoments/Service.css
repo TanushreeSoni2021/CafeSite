@@ -1,0 +1,70 @@
+.ftco-services {
+    color: #1d150b;
+    background: #c49b63 !important;
+}
+
+.ftco-services .heading-section h2 {
+    color: black;
+}
+
+.services .icon {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 0;
+    bordeR: 1px solid #674c27;
+}
+
+.services .icon span {
+    font-size: 60px;
+    color: #1d150b;
+    z-index: 1;
+}
+
+.services h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.services .media-body {
+    color: #1d150b;
+}
+
+.services-wrap {
+    width: 100%;
+    display: block;
+}
+
+@media (max-width: 991.98px) {
+    .services-wrap {
+        margin-bottom: 30px;
+    }
+}
+
+.ftco-section .ftco-sub-title {
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    color: #d4d4d4;
+    font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 300;
+}
+
+.ftco-section .ftco-primary-title {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.ftco-section {
+    padding: 7em 0;
+    position: relative;
+}
+
+@media (max-width: 767.98px) {
+    .ftco-section {
+        padding: 6em 0;
+    }
+}
