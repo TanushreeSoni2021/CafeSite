@@ -10,7 +10,7 @@ import { useSelector } from 'react-redux';
 
 
 function Header() {
-    const {cartItem} =useSelector(state=>state.cart)
+    const { cartItem } = useSelector(state => state.cart)
     return (
         <div>
             <Navbar collapseOnSelect fixed='top' expand="lg" bg="dark" variant="dark">
@@ -21,12 +21,12 @@ function Header() {
                         <Nav>
                             <Link className='nav-link' to='/'>Home</Link>
                             <Link className='nav-link' to='/menu'>Menu</Link>
-                            <Link className='nav-link' to='/service'>Services</Link>
+                            {/*  <Link className='nav-link' to='/service'>Services</Link>
                             <Link className='nav-link' to='/about'>About</Link>
-                            <Link className='nav-link' to='/contact'>Contact</Link>
+                            <Link className='nav-link' to='/contact'>Contact</Link> */}
                             <Link className='nav-link order-count'>
-                                <Badge badgeContent={cartItem.length} style={{background: ""}} >
-                                <Link className='cart-icon' to='/add'><i className="fa-sharp fa-solid fa-cart-shopping"></i></Link>
+                                <Badge badgeContent={cartItem.length} style={{ background: "" }} >
+                                    <Link className='cart-icon' to='/add'><i className="fa-sharp fa-solid fa-cart-shopping"></i></Link>
                                 </Badge>
                             </Link>
                         </Nav>
