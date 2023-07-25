@@ -6,18 +6,22 @@ import m4 from "../assests/images/menu-4.jpg";
 export const small = [
     {
         id :1,
-        imgSrc : m1
+        imgSrc : m1,
+        name : "icdidc"
     },
     {
         id :2,
-        imgSrc : m2
+        imgSrc : m2,
+        name : "icdidc"
     },
     {
         id :3,
-        imgSrc : m3
+        imgSrc : m3,
+        name : "icdidc"
     },
     {
         id :4,
-        imgSrc : m4
+        imgSrc : m4,
+        name : "icdidc"
     }
 ]

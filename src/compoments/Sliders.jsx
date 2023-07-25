@@ -18,7 +18,7 @@ function Sliders() {
                                     <span className="subheading">Welcome</span>
                                     <h1 className="mb-4">The Best Coffee Testing Experience</h1>
                                     <p className="mb-4 mb-md-5">Amazing Taste &amp; Beautiful Place, Creamy Hot and Ready to Serve</p>
-                                    <p><a href='#' className="btn btn-primary p-3 px-xl-4 py-xl-3">Order Now</a> 
+                                    <p><a href='#' className="btn btn-primary p-3 px-xl-4 py-xl-3">Book Now</a> 
                                     <Link to="/menu" className="btn btn-white btn-outline-white p-3 px-xl-4 py-xl-3">View Menu</Link></p>
                                 </div>
 

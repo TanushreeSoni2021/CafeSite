@@ -1,5 +1,39 @@
+/* menucard */
+.ftco-menucard {
+    background: #000;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+
+.ftco-menucard .Startter img {
+    width: 50%;
+    /* margin-left: -30%; */
+    margin-top: 50%;
+    position: relative;
+    overflow: hidden;
+    animation: steam 2s infinite alternate;
+}
+
+@keyframes steam {
+    0% {
+        transform: translateY(0%);
+    }
+
+    100% {
+        transform: translateY(-50px);
+    }
+}
+
+/* menu*/
 .ftco-menu {
     background-color: rgba(0, 0, 0, 0.9);
+    color: #fff;
+}
+
+.ftco-slice {
+    background-color: #000;
+    color: #fff;
 }
 
 .heading-pricing {
@@ -7,12 +41,22 @@
     font-size: 24px;
     color: #fff;
     justify-content: start !important;
+
+}
+
+.menu-heading {
+    padding-top: 5rem;
+    font-size: 2rem;
 }
 
 .pricing-entry {
     width: 100%;
     display: block;
     margin-bottom: 30px;
+    border: 2px solid #c49b63;
+    border-radius: 5%;
+    box-shadow: 5px 10px #f6cb8f;
+    padding: 3%;
 }
 
 .pricing-entry img {
@@ -47,11 +91,12 @@ span {
 span button:hover {
     background-color: #f6cb8f;
 }
+
 @media (max-width:768px) {
     .add-btn button {
-    width: 5rem;
+        width: 5rem;
     }
-    
+
 }
 
 .pricing-entry .text .price {

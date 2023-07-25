@@ -10,7 +10,12 @@ function Gallery() {
         <>
 
             <section className="ftco-gallery">
-                <div className="container-wrap">
+                <div className="container-wrap row justify-content-center mb-5 pb-3 ">
+                    <div className="col-md-7 heading-section ftco-animate text-center">
+                        <span className="subheading">Discover</span>
+                        <h2 className="mb-4">Our Gallery</h2>
+
+                    </div>
                     <div className="row no-gutters">
                         <div className="col-md-3 ftco-animate">
                             <a href="gallery.html" className="gallery d-flex align-items-center">

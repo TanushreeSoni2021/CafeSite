@@ -8,7 +8,7 @@
   height: 100vh;
   display: grid;
   grid-template-columns: 4fr 1fr;
-  background: #c49b63 center/cover;
+  background: #000 center/cover;
 }
 
 .ftco-cart main {
@@ -28,10 +28,12 @@
 .ftco-cart .cartItem {
   background-color: #000;
   width: 100%;
-  border-radius: 10px;
-  margin: 2rem 0;
-  padding: 1rem;
+   margin: 2rem 0;
   display: grid;
+  border: 2px solid #c49b63;
+  border-radius: 5%;
+  box-shadow: 5px 10px #f6cb8f;
+  padding: 2%;
   grid-template-columns: 1fr 3fr 1fr 1fr;
   align-items: center;
 }
@@ -84,7 +86,7 @@
 }
 
 .ftco-cart aside {
-  background-color: #000;
+  background-color: #232020;
   color: #c49b63;
   height: 100%;
   width: 100%;

@@ -7,6 +7,7 @@ import Smallmenu from '../compoments/Smallmenu';
 import Aboutt from '../compoments/Aboutt';
 import Best from '../compoments/Best';
 import Gallery from '../compoments/Gallery';
+import Footer from '../compoments/Footer';
 
 function Home() {
   return (
@@ -18,6 +19,7 @@ function Home() {
    <Aboutt />
    <Best />
    <Gallery />
+   <Footer />
     </>
   )
 }
