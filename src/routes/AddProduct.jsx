@@ -7,35 +7,36 @@ import { useDispatch, useSelector } from 'react-redux';
 function AddProduct() {
     const { cartItem, subtotal, shipping, total } = useSelector(
         (state) => state.cart
-      );    const dispatch = useDispatch();
+    ); const dispatch = useDispatch();
 
     const increment = (id) => {
-      dispatch({
-        type: "addToCart",
-        payload: { id },
-      });
-      dispatch({ type: "calculatePrice" });
+        dispatch({
+            type: "addToCart",
+            payload: { id },
+        });
+        dispatch({ type: "calculatePrice" });
     };
     const decrement = (id) => {
-      dispatch({
-        type: "decrement",
-        payload: id,
-      });
-  
-      dispatch({ type: "calculatePrice" });
+        dispatch({
+            type: "decrement",
+            payload: id,
+        });
+
+        dispatch({ type: "calculatePrice" });
     };
     const deleteHandler = (id) => {
-      dispatch({
-        type: "deleteFromCart",
-        payload: id,
-      });
-      dispatch({ type: "calculatePrice" });
+        dispatch({
+            type: "deleteFromCart",
+            payload: id,
+        });
+        dispatch({ type: "calculatePrice" });
     };
-  
+
     return (
         <>
             <section className='ftco-cart'>
                 <main >
+
                     {cartItem.length > 0 ? (
                         cartItem.map((i) => {
                             return (
@@ -73,6 +74,7 @@ function AddProduct() {
 const CartItem = ({ imgSrc, name, price, qty, decrement, increment, deleteHandler, id }) => {
     return (
         <>
+
             <div className='cartItem' key={id}>
                 <img src={imgSrc} alt="Item" />
                 <article>
