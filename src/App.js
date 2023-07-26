@@ -5,7 +5,6 @@ import Header from './compoments/Header';
 import About from './routes/About';
 import Menu from './routes/Menu';
 import Serviceees from './routes/Serviceees';
-import Contact from './routes/Contact';
 import AddProduct from './routes/AddProduct';
 import {Toaster} from "react-hot-toast"
 
@@ -20,7 +19,6 @@ function App() {
           <Route path='/menu' element={<Menu />} />
           <Route path='/about' element={<About />} />
           <Route path='/service' element={<Serviceees />} />
-          <Route path='/contact' element={<Contact />} />
           <Route path='/add' element={<AddProduct />} />
         </Routes>
         <Toaster />
