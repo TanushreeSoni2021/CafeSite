@@ -31,99 +31,90 @@ export const Starters = [
     {
         id: 1,
         imgSrc: menu1,
-        name: "Chaat",
+        name: "Salaad",
         price: 50
     },
     {
         id: 2,
         imgSrc: menu2,
-        name: "Kababs with cutney",
+        name: "Paneer tikka",
         price: 80
     },
     {
         id: 3,
         imgSrc: menu3,
         name: "Garlic Paner with cutney",
-        price:80
+        price: 80
     },
     {
         id: 4,
         imgSrc: menu4,
-        name: "Bread pizza",
-        price:60
+        name: "Veg pizza",
+        price: 60
     },
     {
         id: 5,
         imgSrc: menu5,
-        name: "Veg mayo Sandwich",
-        price:80
+        name: "Mushrooms tuffed potato cake",
+        price: 80
     },
     {
         id: 6,
         imgSrc: menu6,
-        name: "Grilled potato spinach quesaddillas",
+        name: "Spegati",
         price: 100
     },
     {
         id: 7,
         imgSrc: menu7,
         name: "Mushrooms tuffed potato cake",
-        price:60
+        price: 60
     },
     {
         id: 8,
         imgSrc: menu8,
-        name: "Dumpling",
+        name: "Burger",
         price: 80
     },
     {
         id: 9,
         imgSrc: menu9,
-        // name: "Spinach and Artichoke stuffed bread",
         name: "Expresso",
         price: 80
     },
     {
         id: 10,
         imgSrc: menu10,
-        // name: "Garlic butter pizza bread",
         name: "Long Black",
         price: 80
     },
     {
         id: 11,
         imgSrc: menu11,
-        // name: "Crispy parmesn roastedd potato",
         name: "Hot coffee",
         price: 80
     },
     {
         id: 12,
         imgSrc: menu12,
-        // name: "Paneer Sandwich",
         name: "Latte",
         price: 80
     },
     {
         id: 13,
-        imgSrc: menu13,       
-         name: "Cold Coffee",
-
-        // name: "Rose icecream sandwich",
+        imgSrc: menu13,
+        name: "Cold Coffee",
         price: 50
     },
     {
         id: 14,
         imgSrc: menu14,
         name: "Capuccino",
-
-        // name: "Pancakes with berries",
         price: 80
     },
     {
         id: 15,
         imgSrc: menu15,
-        // name: "Orange fruit tart",        /
         name: "Mocha",
         price: 80
     },
@@ -131,7 +122,6 @@ export const Starters = [
         id: 16,
         imgSrc: menu16,
         name: "Americano",
-        // name: "Blueberry cake",
         price: 60
     },
     {
@@ -166,22 +156,22 @@ export const Starters = [
     },
     {
         id: 22,
-        name: "Fruit shake",
+        name: "Fruit milk shake",
         imgSrc: menu22,
         price: 100
     },
     {
         id: 23,
-        name: "mixed juice",
+        name: "Blueberry cake",
         imgSrc: menu23,
         price: 100
     },
     {
         id: 24,
-        name: "fruit shake",
+        name: "Cream roll",
         imgSrc: menu24,
         price: 100
-   } ,
+    },
     {
         id: 25,
         imgSrc: menu25,
@@ -191,19 +181,19 @@ export const Starters = [
     {
         id: 26,
         imgSrc: menu26,
-        name: "Fruit bowl",
+        name: "Rose icecream sandwich",
         price: 100
     },
     {
         id: 27,
         imgSrc: menu27,
-        name: "Fruit bowl",
+        name: "Pancakes with berries",
         price: 100
     },
     {
         id: 28,
         imgSrc: menu28,
-        name: "Fruit bowl",
+        name: "Orange fruit tart",
         price: 100
     }
 

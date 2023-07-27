@@ -73,7 +73,7 @@ function AddProduct() {
 }
 const CartItem = ({ imgSrc, name, price, qty, decrement, increment, deleteHandler, id }) => {
     return (
-        <>
+        <>  
 
             <div className='cartItem' key={id}>
                 <img src={imgSrc} alt="Item" />

@@ -40,8 +40,10 @@
 
 .ftco-cart .cartItem img {
   width: 7rem;
-  border: 2px solid #fff;
-  border-radius: 10px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
   object-fit: contain;
 }
 
